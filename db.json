@@ -1,345 +1,347 @@
 {
-  "total_suppliers": 16,
-  "total_products": 213,
-  "sections": [
-    {
-      "id": 1,
-      "title": "Поставщики",
-      "page": "suppliers",
-      "category": "all",
-      "view": "grid",
-      "items": [
-        {
-          "id": 1,
-          "name": "Australia",
-          "rating": "5.0",
-          "image_url": "https://i.ibb.co/h23DBnJ/australia.png"
-        },
-        {
-          "id": 2,
-          "name": "Моменталь",
-          "rating": "4.4",
-          "image_url": "https://i.ibb.co/dmBFH55/momental.png"
-        },
-        {
-          "id": 3,
-          "name": "Витула групп",
-          "rating": "4.9",
-          "image_url": "https://i.ibb.co/yP2KQcr/vitala.png"
-        },
-        {
-          "id": 4,
-          "name": "Добрынинский",
-          "rating": "4.9",
-          "image_url": "https://i.ibb.co/WzBPb1F/dobrynin.png"
-        },
-        {
-          "id": 5,
-          "name": "«ИНДИФУД»",
-          "rating": "4.8",
-          "image_url": "https://i.ibb.co/Lvq4HN7/indifood.png"
-        },
-        {
-          "id": 6,
-          "name": "De Luca",
-          "rating": "4.9",
-          "image_url": "https://i.ibb.co/YRk1mgg/deluca.png"
-        },
-        {
-          "id": 7,
-          "name": "Абсолют",
-          "rating": "4.1",
-          "image_url": "https://i.ibb.co/nPVh3FZ/absolut.png"
-        },
-        {
-          "id": 8,
-          "name": "«Титан»",
-          "rating": "4.7",
-          "image_url": "https://i.ibb.co/xmXvvFP/titan.png"
-        },
-        {
-          "id": 9,
-          "name": "Торговый дом «ЛИОН»",
-          "rating": "4.3",
-          "image_url": "https://i.ibb.co/qdw5VJT/lion.png"
-        },
-        {
-          "id": 10,
-          "name": "Крестьянские Деликатесы",
-          "rating": "4.7",
-          "image_url": "https://i.ibb.co/kXP003V/krestian.png"
-        },
-        {
-          "id": 11,
-          "name": "Курофф",
-          "rating": "4.8",
-          "image_url": "https://i.ibb.co/M9Db2hw/kuroff.png"
-        },
-        {
-          "id": 12,
-          "name": " «Остожье»",
-          "rating": "5.0",
-          "image_url": "https://i.ibb.co/9tCrgfM/ostrozhie.png"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Популярные предложения",
-      "page": "products",
-      "category": "popular_offers",
-      "view": "carousel",
-      "items": [
-        {
-          "id": 1,
-          "price": {
-            "current": 37,
-            "currency": "₽"
+  "milk-products": {
+    "total_suppliers": 16,
+    "total_products": 213,
+    "sections": [
+      {
+        "id": 1,
+        "title": "Поставщики",
+        "page": "suppliers",
+        "category": "all",
+        "view": "grid",
+        "items": [
+          {
+            "id": 1,
+            "name": "Australia",
+            "rating": "5.0",
+            "image_url": "https://i.ibb.co/h23DBnJ/australia.png"
           },
-          "vendor_code": "957.184.803.2",
-          "rating": "5.0",
-          "name": "«Мио Милк» ультрапастеризованное, 3.5 %, 1 л",
-          "supplier": {
-            "name": "Плато-С"
+          {
+            "id": 2,
+            "name": "Моменталь",
+            "rating": "4.4",
+            "image_url": "https://i.ibb.co/dmBFH55/momental.png"
           },
-          "image_url": "https://i.ibb.co/HntQkNx/image.png"
-        },
-        {
-          "id": 2,
-          "price": {
-            "current": 43,
-            "currency": "₽"
+          {
+            "id": 3,
+            "name": "Витула групп",
+            "rating": "4.9",
+            "image_url": "https://i.ibb.co/yP2KQcr/vitala.png"
           },
-          "vendor_code": "740.502.381.4",
-          "rating": "4.0",
-          "name": "«Comfy» безлактозное, 3.5 %, 1 л",
-          "supplier": {
-            "name": "Каскад"
+          {
+            "id": 4,
+            "name": "Добрынинский",
+            "rating": "4.9",
+            "image_url": "https://i.ibb.co/WzBPb1F/dobrynin.png"
           },
-          "image_url": "https://i.ibb.co/n68MN3Z/1.png"
-        },
-        {
-          "id": 3,
-          "price": {
-            "current": 37,
-            "currency": "₽"
+          {
+            "id": 5,
+            "name": "«ИНДИФУД»",
+            "rating": "4.8",
+            "image_url": "https://i.ibb.co/Lvq4HN7/indifood.png"
           },
-          "vendor_code": "928.291.149.1",
-          "rating": "5.0",
-          "name": "«Минская марка» пастеризованное цельное, 2.5 %, 900 мл",
-          "supplier": {
-            "name": "Катарина"
+          {
+            "id": 6,
+            "name": "De Luca",
+            "rating": "4.9",
+            "image_url": "https://i.ibb.co/YRk1mgg/deluca.png"
           },
-          "image_url": "https://i.ibb.co/52frm3p/2.png"
-        },
-        {
-          "id": 4,
-          "price": {
-            "current": 35,
-            "currency": "₽"
+          {
+            "id": 7,
+            "name": "Абсолют",
+            "rating": "4.1",
+            "image_url": "https://i.ibb.co/nPVh3FZ/absolut.png"
           },
-          "vendor_code": "154.983.084.2",
-          "rating": "4.4",
-          "name": "Йогурт «Mleko» с шоколадой крошкой, 5.2 %, 145 г",
-          "supplier": {
-            "name": "Melko"
+          {
+            "id": 8,
+            "name": "«Титан»",
+            "rating": "4.7",
+            "image_url": "https://i.ibb.co/xmXvvFP/titan.png"
           },
-          "image_url": "https://i.ibb.co/vcRJyrg/3.png"
-        },
-        {
-          "id": 5,
-          "price": {
-            "current": 170.00,
-            "old": 42.00,
-            "currency": "₽"
+          {
+            "id": 9,
+            "name": "Торговый дом «ЛИОН»",
+            "rating": "4.3",
+            "image_url": "https://i.ibb.co/qdw5VJT/lion.png"
           },
-          "vendor_code": "893.157.392.4",
-          "rating": "4.9",
-          "name": "Творог Искренне ваш 9 %",
-          "supplier": {
-            "name": "Абсолют"
+          {
+            "id": 10,
+            "name": "Крестьянские Деликатесы",
+            "rating": "4.7",
+            "image_url": "https://i.ibb.co/kXP003V/krestian.png"
           },
-          "discount": "-10%",
-          "image_url": "https://i.ibb.co/WpZJKW9/4.png"
-        },
-        {
-          "id": 6,
-          "price": {
-            "current": 125.00,
-            "old": 42.00,
-            "currency": "₽"
+          {
+            "id": 11,
+            "name": "Курофф",
+            "rating": "4.8",
+            "image_url": "https://i.ibb.co/M9Db2hw/kuroff.png"
           },
-          "vendor_code": "895.921.173.8",
-          "rating": "4.6",
-          "name": "«Домик в деревне Кефир 1 %",
-          "supplier": {
-            "name": "Абсолют"
+          {
+            "id": 12,
+            "name": " «Остожье»",
+            "rating": "5.0",
+            "image_url": "https://i.ibb.co/9tCrgfM/ostrozhie.png"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Популярные предложения",
+        "page": "products",
+        "category": "popular_offers",
+        "view": "carousel",
+        "items": [
+          {
+            "id": 1,
+            "price": {
+              "current": 37,
+              "currency": "₽"
+            },
+            "vendor_code": "957.184.803.2",
+            "rating": "5.0",
+            "name": "«Мио Милк» ультрапастеризованное, 3.5 %, 1 л",
+            "supplier": {
+              "name": "Плато-С"
+            },
+            "image_url": "https://i.ibb.co/HntQkNx/image.png"
           },
-          "discount": "-10%",
-          "image_url": "https://i.ibb.co/xSHhKpb/5.png"
-        },
-        {
-          "id": 7,
-          "price": {
-            "current": 123,
-            "old": 42.00,
-            "currency": "₽"
+          {
+            "id": 2,
+            "price": {
+              "current": 43,
+              "currency": "₽"
+            },
+            "vendor_code": "740.502.381.4",
+            "rating": "4.0",
+            "name": "«Comfy» безлактозное, 3.5 %, 1 л",
+            "supplier": {
+              "name": "Каскад"
+            },
+            "image_url": "https://i.ibb.co/n68MN3Z/1.png"
           },
-          "vendor_code": "741.559.950.3",
-          "rating": "5.0",
-          "name": "«Сыр Сулугуни Чабрец 45% ",
-          "supplier": {
-            "name": "Агрофирма"
+          {
+            "id": 3,
+            "price": {
+              "current": 37,
+              "currency": "₽"
+            },
+            "vendor_code": "928.291.149.1",
+            "rating": "5.0",
+            "name": "«Минская марка» пастеризованное цельное, 2.5 %, 900 мл",
+            "supplier": {
+              "name": "Катарина"
+            },
+            "image_url": "https://i.ibb.co/52frm3p/2.png"
           },
-          "discount": "-10%",
-          "image_url": "https://i.ibb.co/5vjRbLH/6.png"
-        },
-        {
-          "id": 8,
-          "price": {
-            "current": 94,
-            "old": 42.00,
-            "currency": "₽"
+          {
+            "id": 4,
+            "price": {
+              "current": 35,
+              "currency": "₽"
+            },
+            "vendor_code": "154.983.084.2",
+            "rating": "4.4",
+            "name": "Йогурт «Mleko» с шоколадой крошкой, 5.2 %, 145 г",
+            "supplier": {
+              "name": "Melko"
+            },
+            "image_url": "https://i.ibb.co/vcRJyrg/3.png"
           },
-          "vendor_code": "840.391.554.2",
-          "rating": "5.0",
-          "name": "«Hochland Творожный сыр сливочный 140 г",
-          "supplier": {
-            "name": "De Luca"
+          {
+            "id": 5,
+            "price": {
+              "current": 170.00,
+              "old": 42.00,
+              "currency": "₽"
+            },
+            "vendor_code": "893.157.392.4",
+            "rating": "4.9",
+            "name": "Творог Искренне ваш 9 %",
+            "supplier": {
+              "name": "Абсолют"
+            },
+            "discount": "-10%",
+            "image_url": "https://i.ibb.co/WpZJKW9/4.png"
           },
-          "discount": "-10%",
-          "image_url": "https://i.ibb.co/sHLs3vf/7.png"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Выгодные акции",
-      "page": "products",
-      "category": "profitable_promotions",
-      "view": "carousel",
-      "items": [
-        {
-          "id": 5,
-          "price": {
-            "current": 170.00,
-            "old": 42.00,
-            "currency": "₽"
+          {
+            "id": 6,
+            "price": {
+              "current": 125.00,
+              "old": 42.00,
+              "currency": "₽"
+            },
+            "vendor_code": "895.921.173.8",
+            "rating": "4.6",
+            "name": "«Домик в деревне Кефир 1 %",
+            "supplier": {
+              "name": "Абсолют"
+            },
+            "discount": "-10%",
+            "image_url": "https://i.ibb.co/xSHhKpb/5.png"
           },
-          "vendor_code": "893.157.392.4",
-          "rating": "4.9",
-          "name": "Творог Искренне ваш 9 %",
-          "supplier": {
-            "name": "Абсолют"
+          {
+            "id": 7,
+            "price": {
+              "current": 123,
+              "old": 42.00,
+              "currency": "₽"
+            },
+            "vendor_code": "741.559.950.3",
+            "rating": "5.0",
+            "name": "«Сыр Сулугуни Чабрец 45% ",
+            "supplier": {
+              "name": "Агрофирма"
+            },
+            "discount": "-10%",
+            "image_url": "https://i.ibb.co/5vjRbLH/6.png"
           },
-          "discount": "-10%",
-          "image_url": "https://i.ibb.co/WpZJKW9/4.png"
-        },
-        {
-          "id": 6,
-          "price": {
-            "current": 125.00,
-            "old": 42.00,
-            "currency": "₽"
+          {
+            "id": 8,
+            "price": {
+              "current": 94,
+              "old": 42.00,
+              "currency": "₽"
+            },
+            "vendor_code": "840.391.554.2",
+            "rating": "5.0",
+            "name": "«Hochland Творожный сыр сливочный 140 г",
+            "supplier": {
+              "name": "De Luca"
+            },
+            "discount": "-10%",
+            "image_url": "https://i.ibb.co/sHLs3vf/7.png"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Выгодные акции",
+        "page": "products",
+        "category": "profitable_promotions",
+        "view": "carousel",
+        "items": [
+          {
+            "id": 5,
+            "price": {
+              "current": 170.00,
+              "old": 42.00,
+              "currency": "₽"
+            },
+            "vendor_code": "893.157.392.4",
+            "rating": "4.9",
+            "name": "Творог Искренне ваш 9 %",
+            "supplier": {
+              "name": "Абсолют"
+            },
+            "discount": "-10%",
+            "image_url": "https://i.ibb.co/WpZJKW9/4.png"
           },
-          "vendor_code": "895.921.173.8",
-          "rating": "4.6",
-          "name": "«Домик в деревне Кефир 1 %",
-          "supplier": {
-            "name": "Абсолют"
+          {
+            "id": 6,
+            "price": {
+              "current": 125.00,
+              "old": 42.00,
+              "currency": "₽"
+            },
+            "vendor_code": "895.921.173.8",
+            "rating": "4.6",
+            "name": "«Домик в деревне Кефир 1 %",
+            "supplier": {
+              "name": "Абсолют"
+            },
+            "discount": "-10%",
+            "image_url": "https://i.ibb.co/xSHhKpb/5.png"
           },
-          "discount": "-10%",
-          "image_url": "https://i.ibb.co/xSHhKpb/5.png"
-        },
-        {
-          "id": 7,
-          "price": {
-            "current": 123,
-            "old": 42.00,
-            "currency": "₽"
+          {
+            "id": 7,
+            "price": {
+              "current": 123,
+              "old": 42.00,
+              "currency": "₽"
+            },
+            "vendor_code": "741.559.950.3",
+            "rating": "5.0",
+            "name": "«Сыр Сулугуни Чабрец 45% ",
+            "supplier": {
+              "name": "Агрофирма"
+            },
+            "discount": "-10%",
+            "image_url": "https://i.ibb.co/5vjRbLH/6.png"
           },
-          "vendor_code": "741.559.950.3",
-          "rating": "5.0",
-          "name": "«Сыр Сулугуни Чабрец 45% ",
-          "supplier": {
-            "name": "Агрофирма"
+          {
+            "id": 8,
+            "price": {
+              "current": 94,
+              "old": 42.00,
+              "currency": "₽"
+            },
+            "vendor_code": "840.391.554.2",
+            "rating": "5.0",
+            "name": "«Hochland Творожный сыр сливочный 140 г",
+            "supplier": {
+              "name": "De Luca"
+            },
+            "discount": "-10%",
+            "image_url": "https://i.ibb.co/sHLs3vf/7.png"
           },
-          "discount": "-10%",
-          "image_url": "https://i.ibb.co/5vjRbLH/6.png"
-        },
-        {
-          "id": 8,
-          "price": {
-            "current": 94,
-            "old": 42.00,
-            "currency": "₽"
+          {
+            "id": 1,
+            "price": {
+              "current": 37,
+              "currency": "₽"
+            },
+            "vendor_code": "957.184.803.2",
+            "rating": "5.0",
+            "name": "«Мио Милк» ультрапастеризованное, 3.5 %, 1 л",
+            "supplier": {
+              "name": "Плато-С"
+            },
+            "image_url": "https://i.ibb.co/HntQkNx/image.png"
           },
-          "vendor_code": "840.391.554.2",
-          "rating": "5.0",
-          "name": "«Hochland Творожный сыр сливочный 140 г",
-          "supplier": {
-            "name": "De Luca"
+          {
+            "id": 2,
+            "price": {
+              "current": 43,
+              "currency": "₽"
+            },
+            "vendor_code": "740.502.381.4",
+            "rating": "4.0",
+            "name": "«Comfy» безлактозное, 3.5 %, 1 л",
+            "supplier": {
+              "name": "Каскад"
+            },
+            "image_url": "https://i.ibb.co/n68MN3Z/1.png"
           },
-          "discount": "-10%",
-          "image_url": "https://i.ibb.co/sHLs3vf/7.png"
-        },
-        {
-          "id": 1,
-          "price": {
-            "current": 37,
-            "currency": "₽"
+          {
+            "id": 3,
+            "price": {
+              "current": 37,
+              "currency": "₽"
+            },
+            "vendor_code": "928.291.149.1",
+            "rating": "5.0",
+            "name": "«Минская марка» пастеризованное цельное, 2.5 %, 900 мл",
+            "supplier": {
+              "name": "Катарина"
+            },
+            "image_url": "https://i.ibb.co/52frm3p/2.png"
           },
-          "vendor_code": "957.184.803.2",
-          "rating": "5.0",
-          "name": "«Мио Милк» ультрапастеризованное, 3.5 %, 1 л",
-          "supplier": {
-            "name": "Плато-С"
-          },
-          "image_url": "https://i.ibb.co/HntQkNx/image.png"
-        },
-        {
-          "id": 2,
-          "price": {
-            "current": 43,
-            "currency": "₽"
-          },
-          "vendor_code": "740.502.381.4",
-          "rating": "4.0",
-          "name": "«Comfy» безлактозное, 3.5 %, 1 л",
-          "supplier": {
-            "name": "Каскад"
-          },
-          "image_url": "https://i.ibb.co/n68MN3Z/1.png"
-        },
-        {
-          "id": 3,
-          "price": {
-            "current": 37,
-            "currency": "₽"
-          },
-          "vendor_code": "928.291.149.1",
-          "rating": "5.0",
-          "name": "«Минская марка» пастеризованное цельное, 2.5 %, 900 мл",
-          "supplier": {
-            "name": "Катарина"
-          },
-          "image_url": "https://i.ibb.co/52frm3p/2.png"
-        },
-        {
-          "id": 4,
-          "price": {
-            "current": 35,
-            "currency": "₽"
-          },
-          "vendor_code": "154.983.084.2",
-          "rating": "4.4",
-          "name": "Йогурт «Mleko» с шоколадой крошкой, 5.2 %, 145 г",
-          "supplier": {
-            "name": "Melko"
-          },
-          "image_url": "https://i.ibb.co/vcRJyrg/3.png"
-        }
-      ]
-    }
-  ]
+          {
+            "id": 4,
+            "price": {
+              "current": 35,
+              "currency": "₽"
+            },
+            "vendor_code": "154.983.084.2",
+            "rating": "4.4",
+            "name": "Йогурт «Mleko» с шоколадой крошкой, 5.2 %, 145 г",
+            "supplier": {
+              "name": "Melko"
+            },
+            "image_url": "https://i.ibb.co/vcRJyrg/3.png"
+          }
+        ]
+      }
+    ]
+  }
 }
