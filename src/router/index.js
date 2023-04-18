@@ -1,14 +1,33 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '@/views/HomeView.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView,
+    name: 'main',
+    component: () => import('@/pages/MainPage.vue'),
+  },
+  {
+    path: '/products',
+    name: 'products',
+    component: () => import('@/pages/ProductsPage.vue'),
+  },
+  {
+    path: '/suppliers',
+    name: 'suppliers',
+    component: () => import('@/pages/SuppliersPage.vue'),
+  },
+  {
+    path: '/catalog/:subsection',
+    name: 'subsection',
+    component: () => import('@/pages/SubsectionPage.vue'),
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'error',
+    component: () => import('@/pages/ErrorPage.vue'),
   },
 ]
 
