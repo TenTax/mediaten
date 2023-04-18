@@ -178,38 +178,6 @@
             },
             "discount": "-10%",
             "image_url": "https://i.ibb.co/xSHhKpb/5.png"
-          },
-          {
-            "id": 7,
-            "price": {
-              "current": 123,
-              "old": 42.00,
-              "currency": "₽"
-            },
-            "vendor_code": "741.559.950.3",
-            "rating": "5.0",
-            "name": "«Сыр Сулугуни Чабрец 45% ",
-            "supplier": {
-              "name": "Агрофирма"
-            },
-            "discount": "-10%",
-            "image_url": "https://i.ibb.co/5vjRbLH/6.png"
-          },
-          {
-            "id": 8,
-            "price": {
-              "current": 94,
-              "old": 42.00,
-              "currency": "₽"
-            },
-            "vendor_code": "840.391.554.2",
-            "rating": "5.0",
-            "name": "«Hochland Творожный сыр сливочный 140 г",
-            "supplier": {
-              "name": "De Luca"
-            },
-            "discount": "-10%",
-            "image_url": "https://i.ibb.co/sHLs3vf/7.png"
           }
         ]
       },
@@ -311,34 +279,6 @@
               "name": "Каскад"
             },
             "image_url": "https://i.ibb.co/n68MN3Z/1.png"
-          },
-          {
-            "id": 3,
-            "price": {
-              "current": 37,
-              "currency": "₽"
-            },
-            "vendor_code": "928.291.149.1",
-            "rating": "5.0",
-            "name": "«Минская марка» пастеризованное цельное, 2.5 %, 900 мл",
-            "supplier": {
-              "name": "Катарина"
-            },
-            "image_url": "https://i.ibb.co/52frm3p/2.png"
-          },
-          {
-            "id": 4,
-            "price": {
-              "current": 35,
-              "currency": "₽"
-            },
-            "vendor_code": "154.983.084.2",
-            "rating": "4.4",
-            "name": "Йогурт «Mleko» с шоколадой крошкой, 5.2 %, 145 г",
-            "supplier": {
-              "name": "Melko"
-            },
-            "image_url": "https://i.ibb.co/vcRJyrg/3.png"
           }
         ]
       }
