@@ -59,11 +59,29 @@ export default {
     this.swiper = new Swiper(this.$refs.swiper, {
       modules: [Navigation],
       loop: false,
-      slidesPerView: 4,
-      spaceBetween: 40,
+      slidesPerView: 1,
+      spaceBetween: 20,
       navigation: {
         nextEl: this.$refs.next,
         prevEl: this.$refs.prev,
+      },
+      breakpoints: {
+        400: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        900: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        },
+        1020: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
       },
     })
   },

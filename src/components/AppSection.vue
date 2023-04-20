@@ -16,6 +16,9 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/styles/mixins.scss';
+@import '@/styles/variables.scss';
+
 .app-section {
   padding: 40px 0;
 
@@ -24,6 +27,14 @@ export default {
     align-items: baseline;
     justify-content: space-between;
     margin-bottom: 56px;
+
+    @include breakpoint($bp-sm) {
+      margin-bottom: 32px;
+    }
+  }
+
+  @include breakpoint($bp-sm) {
+    padding: 20px 0;
   }
 }
 </style>

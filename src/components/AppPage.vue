@@ -46,11 +46,17 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/styles/mixins.scss';
 @import '@/styles/variables.scss';
 
 .app-page {
   padding-top: 73px;
   padding-bottom: 40px;
+
+  @include breakpoint($bp-sm) {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
 
   &_loading {
     padding-top: 0;
@@ -69,12 +75,23 @@ export default {
     display: flex;
     align-items: baseline;
     margin-bottom: 16px;
+
+    @include breakpoint($bp-sm) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
   }
 
   &__counting {
-    margin-left: 26px;;
+    margin-left: 26px;
     font-size: 13px;
     color: $color-gray;
+    white-space: nowrap;
+
+    @include breakpoint($bp-sm) {
+      margin-left: 0;
+      margin-top: 8px;
+    }
   }
 }
 </style>

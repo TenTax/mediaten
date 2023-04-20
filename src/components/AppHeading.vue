@@ -24,11 +24,18 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/styles/mixins.scss';
+@import '@/styles/variables.scss';
+
 .app-heading {
   font-weight: 700;
 
-  &__h1 {
+  &_h1 {
     font-size: 36px;
+
+    @include breakpoint($bp-sm) {
+      font-size: 28px;
+    }
   }
 
   &__h2,

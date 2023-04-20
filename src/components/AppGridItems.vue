@@ -26,12 +26,23 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/styles/mixins.scss';
+@import '@/styles/variables.scss';
+
 .app-grid-items {
   &__list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     grid-gap: 48px 40px;
     list-style: none;
+
+    @include breakpoint($bp-lg) {
+      grid-gap: 32px 30px;
+    }
+
+    @include breakpoint($bp-xs) {
+      grid-gap: 24px 20px;
+    }
   }
 }
 </style>

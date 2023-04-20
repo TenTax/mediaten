@@ -32,6 +32,7 @@ export default {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    min-height: 400px;
   }
 }
 </style>

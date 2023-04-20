@@ -86,6 +86,9 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/styles/mixins.scss';
+@import '@/styles/variables.scss';
+
 .the-footer {
   &::before {
     display: block;
@@ -98,10 +101,15 @@ export default {
 
   &__container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-gap: 32px 24px;
     padding-top: 56px;
     padding-bottom: 83px;
+
+    @include breakpoint($bp-sm) {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
   }
 
   &__menu-title {
