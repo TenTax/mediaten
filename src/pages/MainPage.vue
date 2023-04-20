@@ -1,9 +1,9 @@
 <template>
   <app-page>
     <template #header>
-      <app-page-title>
+      <app-heading>
         Главная страница
-      </app-page-title>
+      </app-heading>
     </template>
 
     <router-link to="/catalog/milk-products">
@@ -14,14 +14,14 @@
 
 <script>
 import AppPage from '@/components/AppPage'
-import AppPageTitle from '@/components/AppPageTitle'
+import AppHeading from '@/components/AppHeading'
 
 export default {
   name: 'MainPage',
 
   components: {
     AppPage,
-    AppPageTitle,
+    AppHeading,
   },
 }
 </script>

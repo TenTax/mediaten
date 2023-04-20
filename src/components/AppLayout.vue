@@ -1,9 +1,9 @@
 <template>
   <div class="app-layout">
-    <app-container>
+    <app-container class="app-layout__container">
       <slot />
     </app-container>
-    <the-footer class="app-layout__footer" />
+    <the-footer />
   </div>
 </template>
 
@@ -25,12 +25,13 @@ export default {
 .app-layout {
   display: flex;
   flex-direction: column;
-  padding-top: 73px;
   width: 100%;
   min-height: 100vh;
 
-  &__footer {
-    margin-top: auto;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
   }
 }
 </style>

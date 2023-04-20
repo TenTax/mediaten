@@ -26,6 +26,9 @@ export default {
         commit('setLoaded')
       }
     },
+    resetState ({ commit }) {
+      commit('resetState')
+    },
   },
 
   mutations: {

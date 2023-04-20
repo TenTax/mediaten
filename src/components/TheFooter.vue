@@ -15,12 +15,14 @@
             :key="label"
             class="the-footer__menu-item"
           >
-            <router-link
+            <app-link
+              thin
+              hoverable
               class="the-footer__menu-link"
               :to="link"
             >
               {{ label }}
-            </router-link>
+            </app-link>
           </li>
         </ul>
       </nav>
@@ -37,12 +39,14 @@
 
 <script>
 import AppContainer from '@/components/AppContainer'
+import AppLink from '@/components/AppLink'
 
 export default {
   name: 'TheFooter',
 
   components: {
     AppContainer,
+    AppLink,
   },
 
   data () {
@@ -121,15 +125,6 @@ export default {
 
   &__menu-item:not(:last-child) {
     margin-bottom: 16px;
-  }
-
-  &__menu-link {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  &__menu-link:hover {
-    text-decoration: underline;
   }
 }
 </style>
