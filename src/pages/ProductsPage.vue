@@ -1,6 +1,6 @@
 <template>
   <app-page>
-    <template #header>
+    <template #title>
       <app-heading>
         Продукты
       </app-heading>

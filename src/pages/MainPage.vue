@@ -1,6 +1,6 @@
 <template>
   <app-page>
-    <template #header>
+    <template #title>
       <app-heading>
         Главная страница
       </app-heading>

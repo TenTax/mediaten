@@ -29,7 +29,7 @@
       <div class="the-footer__menu">
         <ul class="the-footer__menu-list">
           <li class="the-footer__menu-item the-footer__menu-item_sparse">
-            © ООО «КОМПАНИЯ», 2022 Юр. адрес: Москва, Пушкина б-р, 1, оф. 123
+            © ООО «КОМПАНИЯ», 2022<br/>Юр. адрес: Москва, Пушкина б-р, 1, оф. 123
           </li>
         </ul>
       </div>

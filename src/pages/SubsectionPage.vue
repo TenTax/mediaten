@@ -1,9 +1,15 @@
 <template>
   <app-page :loading="!loaded">
-    <template #header>
+    <template #breadcrumbs>
+      <app-breadcrumbs :items="breadcrumbs" />
+    </template>
+    <template #title>
       <app-heading>
-        Заголовок страницы
+        {{ title }}
       </app-heading>
+    </template>
+    <template #counting>
+      {{ totalSuppliers }} поставщиков ∙ {{ totalProducts }} товаров
     </template>
     <app-section
       v-for="section in sections"
@@ -59,6 +65,7 @@ import AppGridItems from '@/components/AppGridItems'
 import SupplierCard from '@/components/SupplierCard'
 import AppCarousel from '@/components/AppCarousel'
 import ProductCard from '@/components/ProductCard'
+import AppBreadcrumbs from '@/components/AppBreadcrumbs'
 
 export default {
   name: 'SubsectionPage',
@@ -72,27 +79,33 @@ export default {
     SupplierCard,
     AppCarousel,
     ProductCard,
+    AppBreadcrumbs,
   },
 
   computed: {
     ...mapGetters({
       loaded: 'subsectionPage/loaded',
+      title: 'subsectionPage/title',
       sections: 'subsectionPage/sections',
+      totalProducts: 'subsectionPage/totalProducts',
+      totalSuppliers: 'subsectionPage/totalSuppliers',
     }),
+
+    breadcrumbs () {
+      return [
+        { label: 'Главная', link: '/' },
+        { label: this.title },
+      ]
+    },
   },
 
   mounted () {
     this.fetchData(this.$route.params.subsection)
   },
 
-  beforeDestroy () {
-    this.resetState()
-  },
-
   methods: {
     ...mapActions({
       fetchData: 'subsectionPage/fetchData',
-      resetState: 'subsectionPage/resetState',
     }),
   },
 }
