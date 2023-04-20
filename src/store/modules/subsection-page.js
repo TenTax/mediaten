@@ -4,13 +4,14 @@ export default {
   namespaced: true,
 
   state: {
-    loaded: false,
+    loading: false,
     data: null,
+    cache: {},
   },
 
   getters: {
-    loaded (state) {
-      return state.loaded
+    loading (state) {
+      return state.loading
     },
     title (state) {
       return state.data?.title
@@ -28,16 +29,17 @@ export default {
 
   actions: {
     async fetchData ({ commit, state }, subsection) {
-      if (state.loaded) {
-        return
+      if (!state.cache[subsection]) {
+        try {
+          commit('setLoading', true)
+          const data = await api.getSubsectionData(subsection)
+          commit('saveDataToCache', { key: subsection, data })
+        } finally {
+          commit('setLoading', false)
+        }
       }
 
-      try {
-        const data = await api.getSubsectionData(subsection)
-        commit('setData', data)
-      } finally {
-        commit('setLoaded')
-      }
+      commit('setData', state.cache[subsection])
     },
   },
 
@@ -46,8 +48,12 @@ export default {
       state.data = data
     },
 
-    setLoaded (state) {
-      state.loaded = true
+    setLoading (state, loading) {
+      state.loading = loading
+    },
+
+    saveDataToCache (state, { key, data }) {
+      state.cache[key] = data
     },
   },
 }

@@ -1,5 +1,5 @@
 <template>
-  <app-page :loading="!loaded">
+  <app-page :loading="loading">
     <template #breadcrumbs>
       <app-breadcrumbs :items="breadcrumbs" />
     </template>
@@ -84,7 +84,7 @@ export default {
 
   computed: {
     ...mapGetters({
-      loaded: 'subsectionPage/loaded',
+      loading: 'subsectionPage/loading',
       title: 'subsectionPage/title',
       sections: 'subsectionPage/sections',
       totalProducts: 'subsectionPage/totalProducts',
