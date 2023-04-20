@@ -1,5 +1,6 @@
 {
   "milk-products": {
+    "title": "Молочные продукты",
     "total_suppliers": 16,
     "total_products": 213,
     "sections": [
@@ -8,7 +9,6 @@
         "title": "Поставщики",
         "page": "suppliers",
         "category": "all",
-        "view": "grid",
         "items": [
           {
             "id": 1,
@@ -89,7 +89,6 @@
         "title": "Популярные предложения",
         "page": "products",
         "category": "popular_offers",
-        "view": "carousel",
         "items": [
           {
             "id": 1,
@@ -186,7 +185,6 @@
         "title": "Выгодные акции",
         "page": "products",
         "category": "profitable_promotions",
-        "view": "carousel",
         "items": [
           {
             "id": 5,
