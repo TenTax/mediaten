@@ -2,7 +2,7 @@ import axios from './axios'
 
 export default {
   async getSubsectionData (subsection) {
-    const response = await axios.get(`/${subsection}`)
-    return response.data
+    const response = await axios.get('db.json')
+    return response.data?.[subsection] ?? {}
   },
 }
