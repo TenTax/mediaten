@@ -1,24 +1,28 @@
-# mediaten
+# Mediaten
 
-## Project setup
-```
-npm install
-```
+### Используемые технологии
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+`vue@2` `js` `scss` `eslint`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Описание
 
-### Lints and fixes files
-```
-npm run lint
-```
+Выполнение тестового задания.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Настройка и запуск
+
+```bash
+# Установка зависимостей
+yarn install
+
+# Запуск приложения в режиме разработки
+yarn serve
+
+# Запуск линтера
+yarn lint
+
+# Сборка приложения
+yarn build
+
+# Деплой на gh-pages
+yarn deploy
+```
